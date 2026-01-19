@@ -15,7 +15,7 @@ const Banner = () => {
                     <div className="leftSide">
                         <h1 className="font-bold text-[40px] text-white pb-0.5">Hey! I'm Majharul Islam</h1>
                         <h2 className="text-[#FE9A00] font-bold text-[40px]">Front-End Web Developer</h2>
-                        <p className="text-[15px] text-[#90A1B9] py-[15px]">Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                        <p className="text-[15px] text-[#90A1B9] py-[15px]">A passionate Full-Stack Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
                         <Button btnText={'Hire Me'}/>
                         <Button btnText={'Download CV'} className={'ml-2'}/>
                     </div>
