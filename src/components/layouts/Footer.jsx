@@ -19,7 +19,7 @@ const Footer = () => {
               </div>
               {/* logo part end */}
               {/* text part start */}
-              <p className="text-[#E5E7EB] text-[15px]">© 2026 Dennis. Design with <GoHeartFill className="text-red-700 inline-block items-center"/> by Majharul.</p>
+              <p className="text-[#E5E7EB] text-[15px]">© 2026 Majharul. Design by Majharul.</p>
               {/* text part end */}
               {/* social media links start */}
               <div className="socialIcons flex gap-x-4 text-white">

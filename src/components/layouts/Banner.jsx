@@ -1,7 +1,7 @@
 import Container from "../Container"
 import Flex from "../Flex"
 import Images from "../Images"
-import m from '../../assets/m.png'
+import bannerImg from '../../assets/bannerImg.png'
 import Button from "../Button"
 import { Typewriter } from "react-simple-typewriter"
 
@@ -32,7 +32,7 @@ const Banner = () => {
                         <Button btnText={'Download CV'} className={'ml-2'}/>
                     </div>
                     <div className="rightSide">
-                        <Images imgSrc={m}/>
+                        <Images imgSrc={bannerImg}/>
                     </div>
                 </Flex>
             </Container>

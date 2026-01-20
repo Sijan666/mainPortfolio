@@ -1,13 +1,6 @@
-
-
-
 import Banner from "../layouts/Banner"
-import About from "./About"
-import Service from './Service'
-import Blog from './Blog'
-import ContactUs from './ContactUs'
-
-
+import Aboutme from "../layouts/Aboutme"
+import Hobbies from "../layouts/Hobbies"
 
 
 
@@ -15,10 +8,8 @@ const Home = () => {
     return (
         <>
         <Banner/>
-        <About/>
-        <Service/>
-        <Blog/>
-        <ContactUs/>
+        <Aboutme/>
+        <Hobbies/>
         </>
     )
 }
