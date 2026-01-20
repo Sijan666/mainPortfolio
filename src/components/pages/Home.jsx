@@ -3,6 +3,7 @@ import Aboutme from "../layouts/Aboutme"
 import Hobbies from "../layouts/Hobbies"
 import Services from "../layouts/Services"
 import Hireme from "../layouts/Hireme"
+import Projects from "../layouts/Projects"
 
 
 
@@ -14,6 +15,7 @@ const Home = () => {
         <Hobbies/>
         <Services/>
         <Hireme/>
+        <Projects/>
         </>
     )
 }
