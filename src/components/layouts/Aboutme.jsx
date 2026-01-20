@@ -8,7 +8,7 @@ import Button from '../Button'
 const Aboutme = () => {
     return (
         <>
-        <div className="py-[95px] bg-[#0F172B]">
+        <div className="py-[95px] bg-[#1D293D]">
             <Container>
                 <Flex className={'justify-between gap-x-15'}>
                     <div className="left w-[40%]">

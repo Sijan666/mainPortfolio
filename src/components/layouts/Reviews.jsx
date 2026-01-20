@@ -25,7 +25,7 @@ var settings = {
 
     return (
         <>
-        <div className="py-[95px] bg-[#1D293D]">
+        <div className="py-[95px] bg-[#0F172B]">
             <Container>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Client's Review</h3>

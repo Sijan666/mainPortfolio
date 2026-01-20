@@ -8,7 +8,7 @@ import Images from '../Images';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-[95px] bg-[#0F172B]">
+        <section id="projects" className="py-[95px] bg-[#1D293D]">
             <Container>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>My Work & Projects</h3>
