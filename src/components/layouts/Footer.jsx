@@ -5,6 +5,7 @@ import Images from "../Images"
 import { BsFacebook, BsGithub, BsInstagram, BsTwitter } from "react-icons/bs"
 import { GoHeartFill } from "react-icons/go"
 import { SiGmail } from "react-icons/si"
+import { Link } from "react-router-dom"
 
 
 const Footer = () => {
@@ -15,7 +16,9 @@ const Footer = () => {
           <Flex className={'justify-between'}>
               {/* logo part start */}
               <div className="logo">
+                <Link to={'/'}>
                   <Images imgSrc={logo}/>
+                </Link>
               </div>
               {/* logo part end */}
               {/* text part start */}
@@ -23,11 +26,21 @@ const Footer = () => {
               {/* text part end */}
               {/* social media links start */}
               <div className="socialIcons flex gap-x-4 text-white">
-                  <BsGithub/>
-                  <BsInstagram/>
-                  <BsFacebook/>
-                  <BsTwitter/>
-                  <SiGmail/>
+                  <Link to={'/'}>
+                    <BsGithub/>
+                  </Link>
+                  <Link to={'/'}>
+                    <BsInstagram/>
+                  </Link>
+                  <Link to={'/'}>
+                    <BsFacebook/>
+                  </Link>
+                  <Link to={'/'}>
+                    <BsTwitter/>
+                  </Link>
+                  <Link to={'/'}>
+                    <SiGmail/>
+                  </Link>
               </div>
               {/* social media links end */}
           </Flex>

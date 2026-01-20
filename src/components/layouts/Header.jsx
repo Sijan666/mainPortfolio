@@ -3,6 +3,7 @@ import Flex from "../Flex"
 import Images from "../Images"
 import logo from '../../assets/logo.png'
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs"
+import { Link } from "react-router-dom"
 
 
 const Header = () => {
@@ -13,25 +14,61 @@ const Header = () => {
                 <Flex className={'justify-between'}>
                     {/* logo part start */}
                     <div className="logo">
-                        <Images imgSrc={logo}/>
+                        <Link to={'/'}>
+                            <Images imgSrc={logo}/>
+                        </Link>
                     </div>
                     {/* logo part end */}
                     {/* menu part start */}
                     <ul className="flex gap-x-4">
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Home</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">About Me</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Services</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Experience</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Projects</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Blogs</li>
-                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">Contact Me</li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Home
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                About Me
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Services
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Experience
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Projects
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Blogs
+                            </Link>
+                        </li>
+                        <li className="text-[15px] font-medium text-[#FFFFFF]/60">
+                            <Link to={'/'}>
+                                Contact Me
+                            </Link>
+                        </li>
                     </ul>
                     {/* menu part end */}
                     {/* social media links start */}
                     <div className="socialIcons flex gap-x-4 text-white">
-                        <BsGithub/>
-                        <BsInstagram/>
-                        <BsFacebook/>
+                        <Link to={'/'}>
+                            <BsGithub/>
+                        </Link>
+                        <Link to={'/'}>
+                            <BsInstagram/>
+                        </Link>
+                        <Link to={'/'}>
+                            <BsFacebook/>
+                        </Link>
                     </div>
                     {/* social media links end */}
                 </Flex>
