@@ -3,5 +3,5 @@
 
 @theme {
     --font-Poppins: "Poppins", sans-serif; 
-    --shadow-newMade: 0 28px 30px rgba(99, 122, 166, 0.05);
+    --shadow-newMade: 0 0 3px rgba(99, 122, 166, 0.05);
 }
