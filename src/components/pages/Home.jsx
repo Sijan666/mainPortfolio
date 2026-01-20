@@ -2,6 +2,7 @@ import Banner from "../layouts/Banner"
 import Aboutme from "../layouts/Aboutme"
 import Hobbies from "../layouts/Hobbies"
 import Services from "../layouts/Services"
+import Hireme from "../layouts/Hireme"
 
 
 
@@ -12,6 +13,7 @@ const Home = () => {
         <Aboutme/>
         <Hobbies/>
         <Services/>
+        <Hireme/>
         </>
     )
 }
