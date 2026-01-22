@@ -8,16 +8,16 @@ import Images from '../Images';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-[95px] bg-[#1D293D]">
-            <Container>
+        <section id="projects" className="py-[95px] bg-[#0F172B]">
+            <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>My Work & Projects</h3>
                     <p className='text-[#90A1B9] text-[15px] pt-6'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div>
 
-                <Flex className="justify-between gap-x-10 mt-15">
+                <div className="lg:flex lg:justify-between lg:gap-x-10 mt-15">
                     {/* project 1 start */}
-                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2">
+                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2 mb-7.5 lg:mb-0">
                         <div className="h-60 overflow-hidden relative">
                             <Images imgSrc={orebi} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -39,7 +39,7 @@ const Projects = () => {
                     </div>
                     {/* project 1 end */}
                     {/* project 2 start */}
-                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2">
+                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2 mb-7.5 lg:mb-0">
                         <div className="h-60 overflow-hidden relative">
                             <Images imgSrc={portfolio} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -61,7 +61,7 @@ const Projects = () => {
                     </div>
                     {/* project 2 end */}
                     {/* project 3 start */}
-                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2">
+                    <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2 mb-7.5 lg:mb-0">
                         <div className="h-60 overflow-hidden relative">
                             <Images imgSrc={game} className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"/>
                             <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
@@ -81,7 +81,7 @@ const Projects = () => {
                         </div>
                     </div>
                     {/* project 3 end */}
-                </Flex>
+                </div>
                 {/* 'See More' Button */}
                 <div className="text-center mt-16">
                     <a 

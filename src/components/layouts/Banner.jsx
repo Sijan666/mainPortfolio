@@ -9,13 +9,13 @@ import { Typewriter } from "react-simple-typewriter"
 const Banner = () => {
     return (
         <>
-        <div className="bg-[#0F172B] relative">
-            <div className="absolute inset-0 bg-[#FE9A00]/5 opacity-50"></div>
-            <Container className={'relative z-10'}>
-                <Flex className={'justify-between'}>
-                    <div className="leftSide">
+        <div className="bg-[#0F172B] lg:relative ">
+            <div className="lgabsolute lg:inset-0 bg-[#FE9A00]/5 opacity-50"></div>
+            <Container className={'w-[360px] lg:w-[1140px] lg:relative lg:z-10'}>
+                <div className='lg:flex lg:justify-between lg:pt-10'>
+                    <div className="leftSide pt-10 lg:pt-55">
                         <h2 className="font-bold text-[40px] text-white pb-0.5">Hey! I'm </h2>
-                        <h1 className="text-[#FE9A00] font-bold text-[40px]">
+                        <h1 className="text-[#FE9A00] font-bold text-[35px] lg:text-[40px]">
                             <Typewriter
                                 words={['Full Stack Developer', 'Majharul Islam']}
                                 loop={true}
@@ -27,14 +27,14 @@ const Banner = () => {
                             />
                         </h1>
                         {/* <h3 className="">Front-End Web Developer</h3> */}
-                        <p className="text-[15px] text-[#90A1B9] py-[15px]">A passionate Full-Stack Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
+                        <p className="lg:text-[15px] text-2xl text-[#90A1B9] py-[15px]">A passionate Full-Stack Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
                         <Button btnText={'Hire Me'}/>
-                        <Button btnText={'Download CV'} className={'ml-2'}/>
+                        <Button btnText={'Download CV'} className={'ml-2 mt-4 lg:mt-0'}/>
                     </div>
                     <div className="rightSide">
                         <Images imgSrc={bannerImg}/>
                     </div>
-                </Flex>
+                </div>
             </Container>
         </div>
         </>

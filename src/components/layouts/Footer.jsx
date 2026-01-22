@@ -12,20 +12,20 @@ const Footer = () => {
   return (
     <>
       <div className="py-7.5 bg-[#0F172B]">
-        <Container>
-          <Flex className={'justify-between'}>
+        <Container className={'w-[360px] lg:w-[1140px]'}>
+          <div className={'lg:flex lg:justify-between'}>
               {/* logo part start */}
-              <div className="logo">
+              <div className="logo ">
                 <Link to={'/'}>
-                  <Images imgSrc={logo}/>
+                  <Images imgSrc={logo} className={'mx-auto mb-5 lg:mb-0'}/>
                 </Link>
               </div>
               {/* logo part end */}
               {/* text part start */}
-              <p className="text-[#E5E7EB] text-[15px]">© 2026 Majharul. Design by Majharul.</p>
+              <p className="text-[#E5E7EB] text-center mb-5 lg:mb-0 text-[15px]">© 2026 Majharul. Design by Majharul.</p>
               {/* text part end */}
               {/* social media links start */}
-              <div className="socialIcons flex gap-x-4 text-white">
+              <div className="socialIcons flex gap-x-5 text-white justify-center lg:justify-between pt-2 lg:pt-0 ">
                   <Link to={'/'}>
                     <BsGithub/>
                   </Link>
@@ -43,7 +43,7 @@ const Footer = () => {
                   </Link>
               </div>
               {/* social media links end */}
-          </Flex>
+          </div>
         </Container>
       </div>
     </>

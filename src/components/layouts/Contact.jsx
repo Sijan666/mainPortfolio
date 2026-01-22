@@ -31,18 +31,18 @@ const Contact = () => {
 
     return (
         <>
-        <div className="py-25 bg-[#1D293D]">
-            <Container>
+        <div className="py-25 bg-[#0F172B]/99">
+            <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Get In Touch !</h3>
-                    <p className='text-[#90A1B9] text-[15px] pt-6'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p className='text-[#90A1B9] text-[15px] pt-6 lg:px-[300px]'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
                 </div>
                 <div className="mt-15">
-                    <Flex className={'gap-x-15'}>
-                        <div className="left w-[60%] bg-[#0F172B] p-6 shadow-newMade rounded-md">
+                    <div className={'lg:flex lg:gap-x-15'}>
+                        <div className="left lg:w-[60%] bg-[#0F172B] p-6 shadow-newMade rounded-md">
                             <form ref={form} onSubmit={sendEmail}>
-                            <div className="flex justify-between gap-x-4 pb-5">
-                                <input type="text" name="user_name" required placeholder='Name :' className='w-full border border-[#1E2939] p-2 text-[#90A1B9] outline-none rounded-sm focus:border-[#FE9A00]'/>
+                            <div className="lg:flex lg:justify-between lg:gap-x-4 pb-5">
+                                <input type="text" name="user_name" required placeholder='Name :' className='w-full mb-5 lg:mb-0 border border-[#1E2939] p-2 text-[#90A1B9] outline-none rounded-sm focus:border-[#FE9A00]'/>
                                 <input type="email" name="user_email" required placeholder='Email :' className='w-full border border-[#1E2939] p-2 text-[#90A1B9] outline-none rounded-sm focus:border-[#FE9A00]'/>
                             </div>
                             <input type="text" placeholder='Subject :' className='w-full border border-[#1E2939] p-2 text-[#90A1B9] outline-none rounded-sm focus:border-[#FE9A00] mb-5'/>
@@ -50,7 +50,7 @@ const Contact = () => {
                             <Button btnText={'Send Message'} className={'mt-5'} type="submit" value="Send"/>
                             </form>
                         </div>
-                        <div className="right">
+                        <div className="right pt-7.5 lg:pt-15">
                             <Flex className={'gap-x-4 items-start'}>
                                 <LuPhone className='text-white text-[20px] mt-1'/>
                                 <div className="">
@@ -73,7 +73,7 @@ const Contact = () => {
                                 </div>
                             </Flex>
                         </div>
-                    </Flex>
+                    </div>
                 </div>
             </Container>
         </div>
