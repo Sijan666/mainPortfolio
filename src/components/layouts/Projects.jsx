@@ -5,6 +5,9 @@ import orebi from '../../assets/orebi.png'
 import portfolio from '../../assets/portfolio.png'
 import game from '../../assets/game.png'
 import Images from '../Images';
+import { FaArrowUpRightFromSquare, FaSquareGithub } from 'react-icons/fa6';
+import { BiUpArrow } from 'react-icons/bi';
+import { BsGithub } from 'react-icons/bs';
 
 const Projects = () => {
     return (
@@ -12,7 +15,7 @@ const Projects = () => {
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>My Work & Projects</h3>
-                    <p className='text-[#90A1B9] text-[15px] pt-6'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p className='text-[#90A1B9] text-[15px] pt-6'>Here are some of the projects I have built using React and Tailwind CSS.</p>
                 </div>
 
                 <div className="lg:flex lg:justify-between lg:gap-x-10 mt-15">
@@ -34,7 +37,17 @@ const Projects = () => {
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border group-hover:text-white duration-300 border-[#FE9A00]/20">Tailwind CSS</span>
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border group-hover:text-white duration-300 border-[#FE9A00]/20">Context API</span>
                             </div>
-                            <a href="https://ui-addedin-orebi.vercel.app/" className="text-white font-semibold text-sm hover:text-[#FE9A00] duration-300">Live Preview</a>
+                            <div className="">
+                                <Flex className="items-center justify-between mt-auto">
+                                    <a href='https://ui-addedin-orebi.vercel.app/' className="hover:text-[#FE9A00] text-white duration-300 font-semibold text-sm flex items-center gap-2">
+                                        Live Preview 
+                                        <FaArrowUpRightFromSquare />
+                                    </a>
+                                    <a href="https://github.com/Sijan666/OrebiFinalProject" className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300">
+                                        <BsGithub/>
+                                    </a>
+                                </Flex>
+                            </div>
                         </div>
                     </div>
                     {/* project 1 end */}
@@ -56,7 +69,17 @@ const Projects = () => {
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border group-hover:text-white duration-300 border-[#FE9A00]/20">jQuery</span>
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border group-hover:text-white duration-300 border-[#FE9A00]/20">Tailwind</span>
                             </div>
-                            <a href="https://ui-addedin-orebi.vercel.app/" className="text-white font-semibold text-sm hover:text-[#FE9A00] duration-300">Live Preview</a>
+                            <div className="">
+                                <Flex className="items-center justify-between mt-auto">
+                                    <a href='https://sijan666.github.io/pluginsAddedInPera/' className="hover:text-[#FE9A00] text-white duration-300 font-semibold text-sm flex items-center gap-2">
+                                        Live Preview 
+                                        <FaArrowUpRightFromSquare />
+                                    </a>
+                                    <a href="https://github.com/Sijan666/pluginsAddedInPera" className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300">
+                                        <BsGithub/>
+                                    </a>
+                                </Flex>
+                            </div>
                         </div>
                     </div>
                     {/* project 2 end */}
@@ -77,7 +100,17 @@ const Projects = () => {
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border border-[#FE9A00]/20">JavaScript</span>
                                 <span className="px-3 py-1 bg-[#FE9A00]/10 text-[#FE9A00] text-xs font-semibold rounded-full border border-[#FE9A00]/20">Tailwind</span>
                             </div>
-                            <a href="https://ui-addedin-orebi.vercel.app/" className="text-white font-semibold text-sm hover:text-[#FE9A00] duration-300">Live Preview</a>
+                            <div className="">
+                                <Flex className="items-center justify-between mt-auto">
+                                    <a href='https://number-guessing-game-final.vercel.app/' className="hover:text-[#FE9A00] text-white duration-300 font-semibold text-sm flex items-center gap-2">
+                                        Live Preview 
+                                        <FaArrowUpRightFromSquare />
+                                    </a>
+                                    <a href="https://github.com/Sijan666/NumberGuessingGameFinal" className="text-gray-400 text-xl hover:text-[#FE9A00] transition-colors duration-300">
+                                        <BsGithub/>
+                                    </a>
+                                </Flex>
+                            </div>
                         </div>
                     </div>
                     {/* project 3 end */}

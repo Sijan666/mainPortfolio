@@ -35,7 +35,7 @@ const Contact = () => {
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Get In Touch !</h3>
-                    <p className='text-[#90A1B9] text-[15px] pt-6 lg:px-[300px]'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
+                    <p className='text-[#90A1B9] text-[15px] pt-6 lg:px-[300px]'>I am currently available for freelance work or full-time opportunities. If you have a project that needs some creative touch, feel free to contact me.</p>
                 </div>
                 <div className="mt-15">
                     <div className={'lg:flex lg:gap-x-15'}>
