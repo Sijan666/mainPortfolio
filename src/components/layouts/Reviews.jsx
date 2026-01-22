@@ -42,8 +42,8 @@ var settings = {
 
     return (
         <>
-        <div className="py-[95px] bg-[#1D293D] lg:w-full w-[395px]">
-            <Container className={'w-[360px] lg:w-[1140px]'}>
+        <div className="py-[95px] bg-[#1D293D] ">
+            <Container className={'w-full px-4 lg:w-[1140px] mx-auto'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Client's Review</h3>
                     <p className='text-[#90A1B9] text-[15px] pt-6 lg:px-[300px]'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development.</p>
