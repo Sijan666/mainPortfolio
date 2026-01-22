@@ -27,11 +27,11 @@ var settings = {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {
-            breakpoint: 480,
+            breakpoint: 450,
             settings: {
             slidesToShow: 1,
             slidesToScroll: 1
