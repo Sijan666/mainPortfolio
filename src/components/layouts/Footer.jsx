@@ -11,7 +11,7 @@ import { Link } from "react-router-dom"
 const Footer = () => {
   return (
     <>
-      <div className="py-7.5 bg-[#0F172B]">
+      <div className="py-7.5 bg-[#0F172B] lg:w-full w-[395px]">
         <Container className={'w-[360px] lg:w-[1140px]'}>
           <div className={'lg:flex lg:justify-between'}>
               {/* logo part start */}

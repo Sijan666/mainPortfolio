@@ -9,7 +9,7 @@ import { Typewriter } from "react-simple-typewriter"
 const Banner = () => {
     return (
         <>
-        <div className="bg-[#0F172B] lg:relative ">
+        <div className="bg-[#0F172B] lg:relative lg:w-full w-[395px]">
             <div className="lgabsolute lg:inset-0 bg-[#FE9A00]/5 opacity-50"></div>
             <Container className={'w-[360px] lg:w-[1140px] lg:relative lg:z-10'}>
                 <div className='lg:flex lg:justify-between lg:pt-10'>

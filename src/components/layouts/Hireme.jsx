@@ -5,7 +5,7 @@ import Button from '../Button'
 const Hireme = () => {
     return (
         <>
-        <div className="bg-[url('/src/assets/Section.png')] bg-center bg-cover bg-no-repeat lg:py-20 py-30 bg-black lg:bg-auto">
+        <div className="bg-[url('/src/assets/Section.png')] bg-center bg-cover bg-no-repeat lg:py-20 py-30 bg-black lg:bg-auto lg:w-full w-[395px]">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>I Am Available For Freelancer Projects.</h3>
