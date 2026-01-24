@@ -15,7 +15,7 @@ const Banner = () => {
                 <div className='lg:flex lg:justify-between lg:pt-10'>
                     <div className="leftSide pt-10 lg:pt-55">
                         <h2 className="font-bold text-[40px] text-white pb-0.5">Hey! I'm </h2>
-                        <h1 className="text-[#FE9A00] font-bold text-[35px] lg:text-[40px]">
+                        <h1 className="text-[#FE9A00] font-bold text-[32px] lg:text-[40px]">
                             <Typewriter
                                 words={['Full Stack Developer', 'Majharul Islam']}
                                 loop={true}
