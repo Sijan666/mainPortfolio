@@ -1,7 +1,8 @@
 import Container from "../Container"
 import Flex from "../Flex"
 import Images from "../Images"
-import logo from '../../assets/logo.png'
+// import logo from '../../assets/logo.png'
+import mlogo from '../../assets/mlogo.png'
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs"
 import { Link } from "react-router-dom"
 
@@ -9,13 +10,14 @@ import { Link } from "react-router-dom"
 const Header = () => {
     return (
         <>
-        <div className="bg-[#0F172B] py-6 lg:fixed z-11 lg:left-1/2 lg:-translate-x-1/2 lg:w-full w-[395px]">
+        <div className="bg-[#0F172B] py-5 lg:fixed z-11 lg:left-1/2 lg:-translate-x-1/2 lg:w-full w-[395px]">
             <Container className={'w-[360px] lg:w-[1140px]'}>
-                <div className='lg:flex lg:justify-between'>
+                <div className='lg:flex lg:justify-between items-center'>
                     {/* logo part start */}
                     <div className="logo">
                         <Link to={'/'}>
-                            <Images imgSrc={logo} className={'mx-auto mb-5 lg:mb-0'}/>
+                            {/* <Images imgSrc={logo} className={'mx-auto mb-5 lg:mb-0'}/> */}
+                            <Images imgSrc={mlogo} className={'mx-auto mb-5 lg:mb-0 w-25'}/>
                         </Link>
                     </div>
                     {/* logo part end */}
@@ -60,15 +62,15 @@ const Header = () => {
                     {/* menu part end */}
                     {/* social media links start */}
                     <div className="socialIcons flex gap-x-5 text-white justify-center lg:justify-between pt-5 lg:pt-0 ">
-                        <Link to={'/'}>
+                        <a href="https://github.com/Sijan666">
                             <BsGithub className="text-2xl lg:text-[15px]"/>
-                        </Link>
-                        <Link to={'/'}>
+                        </a> 
+                        <a href="https://instagram.com/majharul_sijan">
                             <BsInstagram className="text-2xl lg:text-[15px]"/>
-                        </Link>
-                        <Link to={'/'}>
+                        </a> 
+                        <a href="https://facebook.com/majharul.islam.666">
                             <BsFacebook className="text-2xl lg:text-[15px]"/>
-                        </Link>
+                        </a>
                     </div>
                     {/* social media links end */}
                 </div>

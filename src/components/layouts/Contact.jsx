@@ -55,21 +55,21 @@ const Contact = () => {
                                 <LuPhone className='text-white text-[20px] mt-1'/>
                                 <div className="">
                                     <p className='font-medium text-[17px] text-white pb-2'>Phone</p>
-                                    <p className='text-[#90A1B9] text-[15px]'>+152 534-468-854</p>
+                                    <p className='text-[#90A1B9] text-[15px]'>+880 1828-871277</p>
                                 </div>
                             </Flex>
                             <Flex className={'gap-x-4 items-start pt-4'}>
                                 <MdOutlineMail  className='text-white text-[20px] mt-1'/>
                                 <div className="">
                                     <p className='font-medium text-[17px] text-white pb-2'>Email</p>
-                                    <p className='text-[#90A1B9] text-[15px]'>contact@example.com</p>
+                                    <p className='text-[#90A1B9] text-[15px]'>666majharulislam@gmail.com</p>
                                 </div>
                             </Flex>
                             <Flex className={'gap-x-4 items-start pt-4'}>
                                 <SlLocationPin  className='text-white text-[20px] mt-1'/>
                                 <div className="">
                                     <p className='font-medium text-[17px] text-white pb-2'>Location</p>
-                                    <p className='text-[#90A1B9] text-[15px]'>C/54 Northwest Freeway, Suite 558, Houston, USA 485</p>
+                                    <p className='text-[#90A1B9] text-[15px]'>Dhaka , Bangladesh</p>
                                 </div>
                             </Flex>
                         </div>
