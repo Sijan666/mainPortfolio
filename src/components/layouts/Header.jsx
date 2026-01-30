@@ -10,7 +10,7 @@ import { Link } from "react-router-dom"
 const Header = () => {
     return (
         <>
-        <div className="bg-[#0F172B] py-5 lg:fixed z-11 lg:left-1/2 lg:-translate-x-1/2 lg:w-full w-[395px]">
+        <div className="bg-[#0F172B] py-5 sm:w-full lg:fixed z-11 lg:left-1/2 lg:-translate-x-1/2 lg:w-full w-[395px]">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className='lg:flex lg:justify-between items-center'>
                     {/* logo part start */}
