@@ -156,7 +156,7 @@ const Reviews = () => {
 
     return (
         <>
-        <div className="py-[95px] bg-[#1D293D] lg:w-full w-[395px]">
+        <div className="py-[95px] bg-[#1D293D] lg:w-full sm:w-full w-[395px]">
             <Container className={'w-full px-4 lg:w-[1140px] mx-auto'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Client's Review</h3>

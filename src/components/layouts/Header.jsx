@@ -22,7 +22,7 @@ const Header = () => {
                     </div>
                     {/* logo part end */}
                     {/* menu part start */}
-                    <ul className="flex gap-x-5 justify-between mx-auto">
+                    <ul className="flex gap-x-3 lg:gap-x-5 justify-between mx-auto">
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
                             <Link to={'/'}>
                                 Home

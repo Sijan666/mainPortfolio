@@ -11,7 +11,7 @@ import { BsGithub } from 'react-icons/bs';
 
 const Projects = () => {
     return (
-        <section id="projects" className="py-[95px] bg-[#0F172B] lg:w-full w-[395px]">
+        <section id="projects" className="py-[95px] bg-[#0F172B] lg:w-full sm:w-full w-[395px]">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>My Work & Projects</h3>

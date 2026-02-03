@@ -13,7 +13,7 @@ import { MdOutlinePhoneAndroid } from 'react-icons/md'
 const Hobbies = () => {
     return (
         <>
-        <div className="py-[95px] bg-[#0F172B] lg:w-full w-[395px]">
+        <div className="py-[95px] bg-[#0F172B] lg:w-full sm:w-full w-[395px]">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Hobbies & Expertise</h3>
