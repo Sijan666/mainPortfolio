@@ -16,7 +16,7 @@ const Aboutme = () => {
                     </div>
                     <div className="right lg:w-[60%] lg:pt-[120px]">
                         <h3 className='font-semibold text-[20px] lg:text-[24px] text-white'>I'm a Passionate Web Designer</h3>
-                        <p className='text-[#90A1B9] text-[15px] py-6'>Obviously I'm a Web Designer. Web Developer with over 7 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
+                        <p className='text-[#90A1B9] text-[15px] py-6'>Obviously I'm a Web Designer. Web Developer with over 1 years of experience. Experienced with all stages of the development cycle for dynamic web projects. The as opposed to using 'Content here, content here', making it look like readable English.</p>
                         <p className='text-[#90A1B9] text-[15px] pb-8'>I am a passionate developer focused on crafting clean, user-friendly, and responsive interfaces using React & Tailwind CSS.</p>
                         <Button btnText={'See Work'}/>
                     </div>

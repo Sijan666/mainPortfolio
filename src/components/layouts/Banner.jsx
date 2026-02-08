@@ -4,6 +4,7 @@ import Images from "../Images"
 import bannerImg from '../../assets/bannerImg.png'
 import Button from "../Button"
 import { Typewriter } from "react-simple-typewriter"
+import { HashLink } from "react-router-hash-link"
 
 
 const Banner = () => {
@@ -28,7 +29,9 @@ const Banner = () => {
                         </h1>
                         {/* <h3 className="">Front-End Web Developer</h3> */}
                         <p className="lg:text-[15px] text-2xl text-[#90A1B9] py-[15px]">A passionate Full-Stack Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
-                        <Button btnText={'Hire Me'}/>
+                        <HashLink smooth to="#contact">
+                            <Button btnText={'Hire Me'}/>
+                        </HashLink>
                         <Button btnText={'Download CV'} className={'ml-2 mt-4 lg:mt-0'}/>
                     </div>
                     <div className="rightSide">

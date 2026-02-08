@@ -2,7 +2,7 @@ import Banner from "../layouts/Banner"
 import Aboutme from "../layouts/Aboutme"
 import Hobbies from "../layouts/Hobbies"
 import Services from "../layouts/Services"
-import Hireme from "../layouts/Hireme"
+// import Hireme from "../layouts/Hireme"
 import Projects from "../layouts/Projects"
 import Reviews from "../layouts/Reviews"
 import Contact from "../layouts/Contact"
@@ -16,7 +16,7 @@ const Home = () => {
         <Aboutme/>
         <Hobbies/>
         <Services/>
-        <Hireme/>
+        {/* <Hireme/> */}
         <Projects/>
         <Reviews/>
         <Contact/>
