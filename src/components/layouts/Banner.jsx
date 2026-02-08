@@ -28,7 +28,7 @@ const Banner = () => {
                             />
                         </h1>
                         {/* <h3 className="">Front-End Web Developer</h3> */}
-                        <p className="lg:text-[15px] text-2xl text-[#90A1B9] py-[15px]">A passionate Full-Stack Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
+                        <p className="lg:text-[15px] text-2xl text-[#90A1B9] py-[15px]">A passionate Front-End Developer from Bangladesh . Always curious to learn, explore, and collaborate.</p>
                         <HashLink smooth to="#contact">
                             <Button btnText={'Hire Me'}/>
                         </HashLink>
