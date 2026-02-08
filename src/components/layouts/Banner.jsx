@@ -18,7 +18,7 @@ const Banner = () => {
                         <h2 className="font-bold text-[40px] text-white pb-0.5">Hey! I'm </h2>
                         <h1 className="text-[#FE9A00] font-bold text-[32px] lg:text-[40px]">
                             <Typewriter
-                                words={['Full Stack Developer', 'Majharul Islam']}
+                                words={['Front-End Developer', 'Majharul Islam']}
                                 loop={true}
                                 cursor
                                 cursorStyle='|'
