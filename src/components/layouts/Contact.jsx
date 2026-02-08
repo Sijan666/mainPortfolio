@@ -31,7 +31,7 @@ const Contact = () => {
 
     return (
         <>
-        <div className="py-25 bg-[#0F172B]/99 lg:w-full sm:w-full w-[395px]">
+        <div className="py-25 bg-[#0F172B]/99 lg:w-full sm:w-full w-[395px]" id="contact">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>Get In Touch !</h3>
@@ -62,7 +62,7 @@ const Contact = () => {
                                 <MdOutlineMail  className='text-white text-[20px] mt-1'/>
                                 <div className="">
                                     <p className='font-medium text-[17px] text-white pb-2'>Email</p>
-                                    <p className='text-[#90A1B9] text-[15px]'>666majharulislam@gmail.com</p>
+                                    <p className='text-[#90A1B9] text-[15px]'>majharulislamsijan.dev@gmail.com</p>
                                 </div>
                             </Flex>
                             <Flex className={'gap-x-4 items-start pt-4'}>

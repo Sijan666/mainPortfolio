@@ -5,7 +5,7 @@ import Images from "../Images"
 import mlogo from '../../assets/mlogo.png'
 import { BsFacebook, BsGithub, BsInstagram } from "react-icons/bs"
 import { Link } from "react-router-dom"
-
+import { HashLink } from "react-router-hash-link";
 
 const Header = () => {
     return (
@@ -54,9 +54,9 @@ const Header = () => {
                             </Link>
                         </li> */}
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
+                            <HashLink smooth to="#contact">
                                 Contact Me
-                            </Link>
+                            </HashLink>
                         </li>
                     </ul>
                     {/* menu part end */}
