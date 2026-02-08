@@ -29,30 +29,20 @@ const Header = () => {
                             </Link>
                         </li>
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
+                            <HashLink smooth to="#about">
                                 About Me
-                            </Link>
+                            </HashLink>
                         </li>
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
+                            <HashLink smooth to="#services">
                                 Services
-                            </Link>
+                            </HashLink>
                         </li>
-                        {/* <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
-                                Experience
-                            </Link>
-                        </li> */}
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
+                            <HashLink smooth to="#projects">
                                 Projects
-                            </Link>
+                            </HashLink>
                         </li>
-                        {/* <li className="text-[15px] font-medium text-[#FFFFFF]/60">
-                            <Link to={'/'}>
-                                Blogs
-                            </Link>
-                        </li> */}
                         <li className="text-[15px] font-medium text-[#FFFFFF]/60">
                             <HashLink smooth to="#contact">
                                 Contact Me

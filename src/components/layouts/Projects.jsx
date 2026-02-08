@@ -17,7 +17,6 @@ const Projects = () => {
                     <h3 className='text-[24px] text-white font-semibold'>My Work & Projects</h3>
                     <p className='text-[#90A1B9] text-[15px] pt-6'>Here are some of the projects I have built using React and Tailwind CSS.</p>
                 </div>
-
                 <div className="lg:flex lg:justify-between lg:gap-x-10 mt-15">
                     {/* project 1 start */}
                     <div className="group bg-[#1e293b]/20 border border-white/5 rounded-2xl overflow-hidden hover:border-[#FE9A00]/50 transition-all duration-300 hover:-translate-y-2 mb-7.5 lg:mb-0">

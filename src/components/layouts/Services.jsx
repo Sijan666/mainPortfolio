@@ -11,7 +11,7 @@ import { FiWatch } from 'react-icons/fi'
 const Services = () => {
     return (
         <>
-        <div className="py-[95px] bg-[#1D293D] lg:w-full sm:w-full w-[395px]">
+        <div className="py-[95px] bg-[#1D293D] lg:w-full sm:w-full w-[395px]" id="services">
             <Container className={'w-[360px] lg:w-[1140px]'}>
                 <div className="text-center mx-auto">
                     <h3 className='text-[24px] text-white font-semibold'>What do i offer?</h3>
